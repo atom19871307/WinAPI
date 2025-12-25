@@ -7,7 +7,9 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "WinAPI", "WinAPI\WinAPI.vcx
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "DialogBox", "DialogBox\DialogBox.vcxproj", "{A3A725A0-67D6-4852-B754-15E04CB7126D}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ComboBox", "ComboBox\ComboBox.vcxproj", "{AD45CBC3-08D7-4EDA-B177-7754ABEDEE30}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ComboBox ", "ComboBox\ComboBox.vcxproj", "{AD45CBC3-08D7-4EDA-B177-7754ABEDEE30}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "MainWindow", "MainWindow\MainWindow.vcxproj", "{F9AF2A85-1431-4491-8A37-F5A81312A8E1}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -41,6 +43,14 @@ Global
 		{AD45CBC3-08D7-4EDA-B177-7754ABEDEE30}.Release|x64.Build.0 = Release|x64
 		{AD45CBC3-08D7-4EDA-B177-7754ABEDEE30}.Release|x86.ActiveCfg = Release|Win32
 		{AD45CBC3-08D7-4EDA-B177-7754ABEDEE30}.Release|x86.Build.0 = Release|Win32
+		{F9AF2A85-1431-4491-8A37-F5A81312A8E1}.Debug|x64.ActiveCfg = Debug|x64
+		{F9AF2A85-1431-4491-8A37-F5A81312A8E1}.Debug|x64.Build.0 = Debug|x64
+		{F9AF2A85-1431-4491-8A37-F5A81312A8E1}.Debug|x86.ActiveCfg = Debug|Win32
+		{F9AF2A85-1431-4491-8A37-F5A81312A8E1}.Debug|x86.Build.0 = Debug|Win32
+		{F9AF2A85-1431-4491-8A37-F5A81312A8E1}.Release|x64.ActiveCfg = Release|x64
+		{F9AF2A85-1431-4491-8A37-F5A81312A8E1}.Release|x64.Build.0 = Release|x64
+		{F9AF2A85-1431-4491-8A37-F5A81312A8E1}.Release|x86.ActiveCfg = Release|Win32
+		{F9AF2A85-1431-4491-8A37-F5A81312A8E1}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

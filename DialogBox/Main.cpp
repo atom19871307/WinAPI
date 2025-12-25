@@ -40,8 +40,10 @@ BOOL CALLBACK DlgProc(HWND hwnd, UINT uMsg, WPARAM wParam, LPARAM lParam)
 			if (HIWORD((HWND)wParam) == EN_SETFOCUS && strcmp(sz_buffer, g_sz_INVITE) == 0)
 					SendMessage((HWND)hEditLogin, WM_SETTEXT, 0, (LPARAM)"");
 			
-			if (HIWORD((HWND)wParam) == EN_KILLFOCUS && (strcmp(sz_buffer, "") == 0)
+			if (HIWORD((HWND)wParam) == EN_KILLFOCUS && (strcmp(sz_buffer, g_sz_INVITE) == 0)
+			{
 				SendMessage(strcmp(sz_buffer, "") == 0);
+			}
 		
 		break;
 		case  IDC_BUTTON_COPY:
